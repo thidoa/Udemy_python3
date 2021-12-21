@@ -6,5 +6,5 @@ lista = [
     ['P1', 8],
 ]
 
-print(sorted(lista, key=lambda iten: iten[0], reverse=True))
+print(sorted(lista, key=lambda item: item[0], reverse=True))
 print(lista)
